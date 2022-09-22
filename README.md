@@ -1,6 +1,7 @@
 # snakke
--------------
+
 **Trabalho da faculdade (semestre 2019.1).**
+-------------
 
 Utilizando sistemas concorrentes e distribuídos foi criado uma implementação de um **Sistema de Chat**, em que os usuários gerenciam seus contatos e trocam mensagem.
 
@@ -20,8 +21,8 @@ que estão online e offline.
 - A aplicação servidor armazena os usuários cadastrados, seus contatos, e autentica usuários.
 - A aplicação cliente (chat) carrega os contatos.
 - A comunicação cliente/servidor só é permitida para:
- - Autenticar o usuário e carregar a lista de contatos.
- - Manter o usuário online.
+	- Autenticar o usuário e carregar a lista de contatos.
+	- Manter o usuário online.
 - Para o chat entre usuários, deve ser utilizada comunicação cliente/cliente.
 - A aplicação cliente deve ter interface gráfica.
 
